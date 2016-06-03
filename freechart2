@@ -1,0 +1,948 @@
+Enter file contents here<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>LineChartID1df435c21a24</title>
+<meta http-equiv="content-type" content="text/html;charset=euc-kr" />
+<style type="text/css">
+body {
+  color: #444444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 75%;
+  }
+  a {
+  color: #4D87C7;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+ <!-- LineChart generated in R 3.2.4 by googleVis 0.5.10 package -->
+<!-- Fri Jun 03 18:33:10 2016 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataLineChartID1df435c21a24 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+ "Afghanistan",
+60.02826829,
+637.0379443 
+],
+[
+ "Angola",
+51.86617073,
+3675.787412 
+],
+[
+ "Albania",
+77.64046341,
+3738.689799 
+],
+[
+ "United Arab Emirates",
+77.19563415,
+32507.0721 
+],
+[
+ "Argentina",
+75.98609756,
+12463.29847 
+],
+[
+ "Armenia",
+74.56136585,
+3380.962145 
+],
+[
+ "Australia",
+82.14878049,
+52290.2299 
+],
+[
+ "Austria",
+81.13658537,
+41636.12156 
+],
+[
+ "Azerbaijan",
+70.69058537,
+5122.941115 
+],
+[
+ "Burundi",
+56.25160976,
+180.7111281 
+],
+[
+ "Belgium",
+80.58780488,
+38097.94414 
+],
+[
+ "Benin",
+59.31202439,
+814.4532375 
+],
+[
+ "Burkina Faso",
+58.24063415,
+564.4740006 
+],
+[
+ "Bangladesh",
+71.2452439,
+920.607277 
+],
+[
+ "Bulgaria",
+74.86097561,
+6308.808871 
+],
+[
+ "Bahrain",
+76.54595122,
+14361.67331 
+],
+[
+ "Bahamas, The",
+75.07353659,
+19904.92276 
+],
+[
+ "Belarus",
+72.47073171,
+6487.019834 
+],
+[
+ "Belize",
+69.98204878,
+3408.7368 
+],
+[
+ "Bolivia",
+67.91343902,
+2143.729674 
+],
+[
+ "Brazil",
+74.12243902,
+9812.705341 
+],
+[
+ "Bhutan",
+69.10292683,
+1807.021978 
+],
+[
+ "Botswana",
+64.36080488,
+5168.599723 
+],
+[
+ "Central African Republic",
+49.87987805,
+306.2611547 
+],
+[
+ "Canada",
+81.76504878,
+41427.19523 
+],
+[
+ "Switzerland",
+82.79756098,
+68574.83535 
+],
+[
+ "Chile",
+81.19792683,
+11932.87163 
+],
+[
+ "China",
+75.58514634,
+5814.665728 
+],
+[
+ "Cote d'Ivoire",
+51.20846341,
+1292.004357 
+],
+[
+ "Cameroon",
+55.04180488,
+1121.76996 
+],
+[
+ "Congo, Rep.",
+61.66639024,
+598.5535417 
+],
+[
+ "Colombia",
+73.80973171,
+6192.73744 
+],
+[
+ "Comoros",
+62.93217073,
+670.3638656 
+],
+[
+ "Cabo Verde",
+72.97236585,
+2755.465366 
+],
+[
+ "Costa Rica",
+79.22521951,
+9479.388378 
+],
+[
+ "Cyprus",
+79.94978049,
+17614.87774 
+],
+[
+ "Czech Republic",
+78.17560976,
+14186.79557 
+],
+[
+ "Germany",
+80.84390244,
+38395.08634 
+],
+[
+ "Denmark",
+80.3,
+50396.84353 
+],
+[
+ "Dominican Republic",
+73.31990244,
+5328.892788 
+],
+[
+ "Algeria",
+74.56895122,
+4077.595482 
+],
+[
+ "Ecuador",
+75.6485122,
+4705.280279 
+],
+[
+ "Egypt, Arab Rep.",
+70.92578049,
+2735.38661 
+],
+[
+ "Spain",
+83.07804878,
+24002.63333 
+],
+[
+ "Estonia",
+77.14146341,
+15686.66703 
+],
+[
+ "Ethiopia",
+63.44219512,
+410.799653 
+],
+[
+ "Finland",
+80.97560976,
+40035.64105 
+],
+[
+ "Fiji",
+69.91792683,
+4165.118216 
+],
+[
+ "France",
+82.2195122,
+35594.09691 
+],
+[
+ "Gabon",
+63.84358537,
+4786.782601 
+],
+[
+ "United Kingdom",
+81.00487805,
+35909.47843 
+],
+[
+ "Georgia",
+74.51390244,
+3710.013646 
+],
+[
+ "Ghana",
+61.14207317,
+1428.941802 
+],
+[
+ "Guinea",
+58.2164878,
+335.294167 
+],
+[
+ "Gambia, The",
+59.99926829,
+371.6516172 
+],
+[
+ "Guinea-Bissau",
+54.83841463,
+417.9937601 
+],
+[
+ "Equatorial Guinea",
+57.29082927,
+1471.435965 
+],
+[
+ "Greece",
+81.28536585,
+17892.50668 
+],
+[
+ "Guatemala",
+71.48639024,
+3009.266574 
+],
+[
+ "Guyana",
+66.31002439,
+3365.91004 
+],
+[
+ "Honduras",
+72.94285366,
+1988.30998 
+],
+[
+ "Croatia",
+77.12682927,
+10785.40124 
+],
+[
+ "Haiti",
+62.40114634,
+766.2702206 
+],
+[
+ "Hungary",
+75.56585366,
+10726.86984 
+],
+[
+ "Indonesia",
+68.70460976,
+3206.371891 
+],
+[
+ "India",
+67.66041463,
+1246.321769 
+],
+[
+ "Ireland",
+81,
+35997.53205 
+],
+[
+ "Iran, Islamic Rep.",
+75.12597561,
+5135.440694 
+],
+[
+ "Iraq",
+69.1834878,
+4776.131669 
+],
+[
+ "Iceland",
+82.06097561,
+38683.42455 
+],
+[
+ "Israel",
+82.05609756,
+30710.30965 
+],
+[
+ "Italy",
+82.6902439,
+28745.99319 
+],
+[
+ "Jamaica",
+75.4882439,
+4643.016352 
+],
+[
+ "Jordan",
+73.9,
+4673.286498 
+],
+[
+ "Japan",
+83.33195122,
+31850.81031 
+],
+[
+ "Kazakhstan",
+70.45,
+8583.944275 
+],
+[
+ "Kenya",
+60.95378049,
+1135.204183 
+],
+[
+ "Kyrgyz Republic",
+70.20243902,
+964.2184892 
+],
+[
+ "Cambodia",
+67.77204878,
+844.277706 
+],
+[
+ "Kiribati",
+65.76658537,
+2426.887248 
+],
+[
+ "Korea, Rep.",
+81.70512195,
+21104.45313 
+],
+[
+ "Kuwait",
+74.46968293,
+36857.88787 
+],
+[
+ "Lao PDR",
+65.6872439,
+1255.02335 
+],
+[
+ "Lebanon",
+79.13370732,
+8488.605602 
+],
+[
+ "Liberia",
+60.52039024,
+252.4575365 
+],
+[
+ "Libya",
+71.65768293,
+7139.34219 
+],
+[
+ "St. Lucia",
+74.91270732,
+6742.883014 
+],
+[
+ "Sri Lanka",
+74.65382927,
+2957.717406 
+],
+[
+ "Lesotho",
+49.33146341,
+1254.396262 
+],
+[
+ "Lithuania",
+73.91463415,
+13041.84505 
+],
+[
+ "Luxembourg",
+81.8,
+59782.27801 
+],
+[
+ "Latvia",
+73.98292683,
+11251.62999 
+],
+[
+ "Morocco",
+73.70904878,
+2678.448568 
+],
+[
+ "Moldova",
+71.17204878,
+2273.155287 
+],
+[
+ "Madagascar",
+64.67390244,
+395.4805691 
+],
+[
+ "Maldives",
+76.60260976,
+5484.839907 
+],
+[
+ "Mexico",
+76.53265854,
+8055.955547 
+],
+[
+ "Macedonia, FYR",
+75.18704878,
+4140.174374 
+],
+[
+ "Mali",
+57.53519512,
+505.0412361 
+],
+[
+ "Myanmar",
+65.65409756,
+1010.207956 
+],
+[
+ "Mongolia",
+69.06180488,
+3386.731677 
+],
+[
+ "Mozambique",
+54.6415122,
+527.4742974 
+],
+[
+ "Mauritania",
+62.80270732,
+740.4789504 
+],
+[
+ "Mauritius",
+74.01707317,
+8616.919271 
+],
+[
+ "Malawi",
+61.466,
+185.5759589 
+],
+[
+ "Malaysia",
+74.5675122,
+8029.50855 
+],
+[
+ "Namibia",
+64.34387805,
+4835.403244 
+],
+[
+ "Niger",
+60.82814634,
+334.425693 
+],
+[
+ "Nigeria",
+52.44214634,
+2482.486952 
+],
+[
+ "Nicaragua",
+74.5147561,
+1591.644024 
+],
+[
+ "Netherlands",
+81.30487805,
+43403.63118 
+],
+[
+ "Norway",
+81.75121951,
+78927.15737 
+],
+[
+ "Nepal",
+69.222,
+630.957418 
+],
+[
+ "New Zealand",
+81.40731707,
+34311.10656 
+],
+[
+ "Oman",
+76.84104878,
+8749.266685 
+],
+[
+ "Pakistan",
+65.96368293,
+1229.357321 
+],
+[
+ "Panama",
+77.41921951,
+10572.20972 
+],
+[
+ "Peru",
+74.28385366,
+5446.276291 
+],
+[
+ "Philippines",
+68.13156098,
+3034.981641 
+],
+[
+ "Papua New Guinea",
+62.44917073,
+1490.928057 
+],
+[
+ "Poland",
+77,
+11677.08954 
+],
+[
+ "Portugal",
+80.72195122,
+17515.63325 
+],
+[
+ "Paraguay",
+72.79917073,
+3750.877257 
+],
+[
+ "Qatar",
+78.4184878,
+58226.81436 
+],
+[
+ "Romania",
+75.06341463,
+9053.077503 
+],
+[
+ "Russian Federation",
+70.36585366,
+11721.76263 
+],
+[
+ "Rwanda",
+63.39482927,
+572.5330043 
+],
+[
+ "Saudi Arabia",
+74.17763415,
+17586.77085 
+],
+[
+ "Sudan",
+63.16704878,
+1548.658806 
+],
+[
+ "Senegal",
+65.8787561,
+904.7516051 
+],
+[
+ "Singapore",
+82.24634146,
+46953.54404 
+],
+[
+ "Solomon Islands",
+67.71892683,
+1154.164203 
+],
+[
+ "Sierra Leone",
+50.36312195,
+621.3100235 
+],
+[
+ "El Salvador",
+72.49814634,
+3425.320735 
+],
+[
+ "Sao Tome and Principe",
+66.2595122,
+1487.250165 
+],
+[
+ "Suriname",
+70.99,
+6888.250475 
+],
+[
+ "Slovak Republic",
+76.41219512,
+13966.27152 
+],
+[
+ "Slovenia",
+80.32195122,
+18050.5895 
+],
+[
+ "Sweden",
+81.95609756,
+51843.5856 
+],
+[
+ "Swaziland",
+48.93792683,
+2819.873955 
+],
+[
+ "Seychelles",
+73.1195122,
+13017.78092 
+],
+[
+ "Chad",
+51.1914878,
+741.31644 
+],
+[
+ "Togo",
+59.13236585,
+452.3762 
+],
+[
+ "Thailand",
+74.24692683,
+4659.825022 
+],
+[
+ "Tajikistan",
+69.40017073,
+981.8828026 
+],
+[
+ "Tonga",
+72.64034146,
+3861.051899 
+],
+[
+ "Trinidad and Tobago",
+70.30529268,
+11360.43589 
+],
+[
+ "Tunisia",
+74.04390244,
+3232.116994 
+],
+[
+ "Turkey",
+74.90070732,
+10180.98553 
+],
+[
+ "Tanzania",
+64.29182927,
+793.3476746 
+],
+[
+ "Uganda",
+57.76768293,
+541.8736132 
+],
+[
+ "Ukraine",
+71.1595122,
+3233.993032 
+],
+[
+ "Uruguay",
+76.83619512,
+14443.95715 
+],
+[
+ "United States",
+78.84146341,
+45170.80041 
+],
+[
+ "Uzbekistan",
+68.222,
+1632.509005 
+],
+[
+ "St. Vincent and the Grenadines",
+72.81087805,
+6213.657851 
+],
+[
+ "Vietnam",
+75.477,
+1441.37789 
+],
+[
+ "Vanuatu",
+71.6692439,
+2871.861419 
+],
+[
+ "Samoa",
+73.25039024,
+3554.875122 
+],
+[
+ "Yemen, Rep.",
+63.5835122,
+1163.117328 
+],
+[
+ "South Africa",
+56.73658537,
+5548.614553 
+],
+[
+ "Congo, Dem. Rep.",
+58.27192683,
+227.9824164 
+],
+[
+ "Zambia",
+59.23736585,
+1232.822284 
+],
+[
+ "Zimbabwe",
+55.633,
+799.5307291 
+] 
+];
+data.addColumn('string','Country.Name');
+data.addColumn('number','lifeExp');
+data.addColumn('number','Income');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartLineChartID1df435c21a24() {
+var data = gvisDataLineChartID1df435c21a24();
+var options = {};
+options["allowHtml"] = true;
+options["title"] = "나라별 기대수명과 수입 관계";
+options["titleTextStyle"] = {color:'red',
+fontName:'Courier',
+fontSize:16};
+options["backgroundColor"] = "#D3D3D3";
+options["vAxis"] = {gridlines:{color:'red', count:3}};
+options["series"] = [{color:'green', targetAxisIndex: 0},
+{color: 'orange',targetAxisIndex:1}];
+options["vAxes"] = [{title:'lifeExp'}, {title:'Income'}];
+options["legend"] = "bottom";
+options["curveType"] = "function";
+options["width"] =    800;
+options["height"] =    600;
+
+
+    var chart = new google.visualization.LineChart(
+    document.getElementById('LineChartID1df435c21a24')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "corechart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartLineChartID1df435c21a24);
+})();
+function displayChartLineChartID1df435c21a24() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID1df435c21a24"></script>
+ 
+<!-- divChart -->
+  
+<div id="LineChartID1df435c21a24" 
+  style="width: 800; height: 600;">
+</div>
+ <div><span>Data: data &#8226; Chart ID: <a href="Chart_LineChartID1df435c21a24.html">LineChartID1df435c21a24</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
+<!-- htmlFooter -->
+<span> 
+  R version 3.2.4 Revised (2016-03-16 r70336) 
+  &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/linechart">Documentation and Data Policy</a>
+</span></div>
+<div>
+<p>Line차트임.</p>
+<p>수익과 기대수명의 변수를 넣어서 색깔을 각각 다르게 적용해 두 변수의 상관관계를 쉽게 볼 수 있게 함.</p>
+</body>
+</html>
